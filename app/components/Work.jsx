@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "motion/react"
 
 const Work = ({isDarkMode}) => {
+  
   return (
     <motion.div
     initial={{opacity:0}}
@@ -53,6 +54,7 @@ const Work = ({isDarkMode}) => {
               </div>
             </div>
           </motion.div>
+          
         ))}
       </motion.div>
       <motion.a
